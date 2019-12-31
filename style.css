@@ -1,0 +1,245 @@
+body {
+    height: 210vh;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 12vh;
+    background-color: black;
+    z-index: 1;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.leftNav {
+    width: 40vw;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    font-size: 13px;
+    font-family: Verdana, sans-serif;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+.rightNav {
+    width: 30vw;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    font-size: 13px;
+    font-family: Verdana, sans-serif;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+.shop {
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.spacex {
+    position: relative;
+}
+
+.spacex:hover{}
+.falcon9:hover {
+    text-decoration: underline;
+}
+.falconheavy:hover {
+    text-decoration: underline;
+}
+.dragon:hover {
+    text-decoration: underline;
+}
+.starship:hover {
+    text-decoration: underline;
+}
+.updates:hover {
+    text-decoration: underline;
+}
+.about:hover {
+    text-decoration: underline;
+}
+.careers:hover {
+    text-decoration: underline;
+}
+.shop:hover {}
+
+
+
+.imgnest {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.img1 {
+    position: absolute;
+    top: 10vh;
+    left: -8px;
+    width: 100%;
+    height: 80vh;
+}
+
+/*
+.wordnest {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#one {
+    position: absolute;
+    background-color: darkgrey;
+    height: 80px;
+    width: 100%;
+    bottom: 0px;
+}
+
+#three {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    background-color: lightgray;
+    height: 50px;
+}
+#four {
+    position: absolute;
+    bottom: 0px;
+}
+#five {
+    position: absolute;
+    bottom: 0px;
+}
+
+#two {
+    border: 5px solid black;
+    position: relative;
+}
+*/
+
+#pdiv {
+    position: relative;
+    top: 75vh;
+    left: -8px;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+
+#ptag {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 100%;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    color: gray;
+    padding-top: 20px;
+}
+
+#bottomNest {
+    position: relative;
+    top: 75vh;
+    left: -8px;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#first {
+    height: 100px;
+    background-color: darkgrey;
+    width: 250px;
+    padding-top: 150px;
+    padding-left: 20px;
+    font-family: Verdana, sans-serif;
+}
+#second {
+    height: 100px;
+    background-color: darkgrey;
+    width: 250px;
+    padding-top: 150px;
+    padding-left: 20px;
+    font-family: Verdana, sans-serif;
+}
+#third {
+    height: 100px;
+    background-color: darkgrey;
+    width: 250px;
+    padding-top: 150px;
+    padding-left: 20px;
+    font-family: Verdana, sans-serif;
+}
+
+#empty {
+    position: relative;
+    left: -8px;
+    top: 75vh;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+
+#footer {
+    position: relative;
+    left: -8px;
+    top: 75vh;
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#twitter {
+    font-family: Verdana, sans-serif;
+    padding-left: 50px;
+}
+#youtube {
+    font-family: Verdana, sans-serif;
+    padding-left: 50px;
+}
+#flickr {
+    font-family: Verdana, sans-serif;
+    padding-left: 50px;
+}
+#instagram {
+    font-family: Verdana, sans-serif;
+    padding-left: 50px;
+}
+
+.spacextwo {
+    position: relative;
+    left: 50px;
+}
+
+#twitter:hover {
+    text-decoration: underline;
+}
+#youtube:hover {
+    text-decoration: underline;
+}
+#flickr:hover {
+    text-decoration: underline;
+}
+#instagram:hover {
+    text-decoration: underline;
+}
